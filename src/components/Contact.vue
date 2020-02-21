@@ -61,7 +61,7 @@ $dark-grey: #333333;
 
 .social-icon {
   &-item {
-    a {
+    a{
       display: inline-block;
       font-size: $font4*4;
       width: $font4*10;

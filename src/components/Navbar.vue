@@ -1,16 +1,17 @@
 <template>
     <div class="nav-wrapper effect" :class="{ 'nav-sticky': showNavbar }">
-        <nav class="navbar-custom">
-            <a><router-link :to="{path:'home'}" class="navbar-brand effect font-weight-bold">ANDY</router-link></a>
-            <!-- Brand and toggle get grouped for better mobile display -->
+       <!-- <nav class="navbar-custom">
+            <a><router-link :to="{path:'/'}" class="navbar-brand effect font-weight-bold">ANDY</router-link></a>
+
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bm-navbar" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
-                    <!--  <font-awesome-icon icon="bars" />-->
+                   
                 </button>
             </div>
-        </nav>
-        <div class="navbar-collapse navbar-right effect in" id="bm-navbar" aria-expanded="false">
+        </nav>-->
+        <div class="navbar-custom navbar-collapse navbar-right " id="bm-navbar" aria-expanded="false">
+        <a><router-link :to="{path:'/'}" class="navbar-brand effect font-weight-bold">ANDY</router-link></a>
             <ul class="nav navbar-nav">
               <li :id="'nav-'+item.link.toLowerCase()" class="" v-for="(item, index) in sectionLink" :key='index'>
                 <a :href="'#'+ item.link.toLowerCase()" class="scroll effect p-2"
@@ -57,7 +58,7 @@ export default {
         },
         {
           item: 'Skill',
-          link: 'Work',
+          link: 'SKill',
           scrollSpeed: 800
         },
         {

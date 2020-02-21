@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id='app'>
      <router-view/>
   </div>
 </template>
@@ -17,5 +17,6 @@ export default{
 
 </script>
 
-<style>
+<style lang="scss">
+@import '@/assets/scss/_main.scss';
 </style>
