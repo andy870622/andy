@@ -43,11 +43,11 @@ export default {
       contact: [
         {
           icon: 'mobile-alt',
-          data: '0911241129'
+          data: '0928865490'
         },
         {
           icon: 'envelope',
-          data: 'shuen29@gmail.com'
+          data: 'andy870622'
         }
       ],
       sectionLink: [

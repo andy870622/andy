@@ -60,18 +60,20 @@ export default {
           title: '海大拍賣系統',
           tags: ['HTML', 'CSS3', 'Javascript', 'jQuery','python','django'],
           image: Auction_Image,
-          link: 'https://www.momoshop.com.tw/main/Main.jsp',
+          link: 'https://github.com/andy870622/ntouo_auction_system',
           description: [
-            'MOMOSHOP 本站桌機版的首頁區塊、商品頁、分類頁、購物車、會員中心...等改版製作'
+            '一個可用第三方認證之拍賣系統',
+            '使用 Django, Firebase 做為後端',
+            '可上架、拍賣、競拍商品'
             ]
         },
         {
           title: 'KKWOO',
           tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
           image: Kkwoo_Image,
-          link: 'https://m.momoshop.com.tw/main.momo',
+          link: 'https://hackathon.ntouo.tw/',
           description: [
-            'MOMOSHOP 本站手機版的首頁區塊、商品頁、分類頁、購物車、會員中心...等改版製作',
+            '',
             ''
             ]
         },
