@@ -1,5 +1,5 @@
 <template>
-  <div class="Intro">
+  <div id="intro" class="Intro">
   <Navbar />
   <KVTyper title="Hi! I'm Andy"></KVTyper>
   <About title="AboutMe" />

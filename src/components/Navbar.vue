@@ -11,7 +11,7 @@
             </div>
         </nav>-->
         <div class="navbar-custom navbar-collapse navbar-right " id="bm-navbar" aria-expanded="false">
-        <a><router-link :to="{path:'/'}" class="navbar-brand effect font-weight-bold">ANDY</router-link></a>
+        <a href="#intro" class="navbar-brand effect font-weight-bold">ANDY</a>
             <ul class="nav navbar-nav">
               <li :id="'nav-'+item.link.toLowerCase()" class="" v-for="(item, index) in sectionLink" :key='index'>
                 <a :href="'#'+ item.link.toLowerCase()" class="scroll effect p-2"

@@ -1,6 +1,6 @@
 <template>
   <div class="experience text-left spaceWrapperContainer">
-    <div id="experience" class="spaceWrapper"></div>
+    <div id="experienceandeducation" class="spaceWrapper"></div>
     <h1 class="title">{{ title }}</h1>
     <h2 class="subTitle">{{ subTitle }}</h2>
     <div class="">
