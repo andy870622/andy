@@ -31,7 +31,7 @@ export default{
                 },
                 {
                     icon:'envelope',
-                    data:'andy870622@gamil.com'
+                    data:'andy870622@gmail.com'
                 },
             ],
             social:[
@@ -46,6 +46,10 @@ export default{
                 {
                     icon:'medium',
                     data:'https://medium.com/@andy870622'
+                },
+                {
+                  icon:'telegram',
+                  data:"https://t.me/andy02047"  
                 }
             ]
         }

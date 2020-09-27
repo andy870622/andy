@@ -100,16 +100,7 @@
             <li v-for='item in otherSkill' :key='item.index'>{{ item }}</li>
           </ul>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="skill-language">
-          <h3>語言能力</h3>
-          <ul>
-            <li v-for='item in language' :key='item.index'>{{ item }}</li>
-          </ul>
-        </div>
-      </div>
-    </div> -->
+      </div>-->
   </div>
 </template>
 
@@ -132,19 +123,21 @@ export default {
           skillList: ['HTML5', 'CSS3', 'JavaScript', 'jQuery','Vue.js', 'React'],
           info: [
             '使用 HTML5、CSS3、SCSS 獨立切版或套用 Bootstrap',
-            '搭配 JavaScript 或 jQuery 製作各式動畫效果',
+            '搭配 JavaScript , jQuery , CSS 製作動畫效果',
             '以 Ajax 串接 API 資料',
-            '目標學習建置各小型專案來更熟悉 Vue.js 及 React'
+            '目標學習建置各小型專案來熟悉 Vue.js'
           ]
         },
         {
           icon: 'server',
           title: 'Backend Development',
-          skillList: ['Django','FIREBASE', 'PYTHON FLASK'],
+          skillList: ['Django','Firebase', 'PYTHON FLASK','Asp.net','SQL','MongoDB','C#'],
           info: [
-            '曾經使用過 PHP & MySQL',
+            '使用 PHP & MySQL',
             '目前學習並使用 Node.js, Express.js, Firebase 來建置小型專案',
-            '用 Python flask 和 Django 建置小專案'
+            '用 Python flask 和 Django 建置小專案',
+            '建置 ASP.NET 網頁',
+            '建置 IIS'
           ]
         },
         {
@@ -152,8 +145,8 @@ export default {
           title: 'Others',
           skillList: ['Git', 'Linux'],
           info: [
-            '熟悉 Git 常用的基本指令',
-            'linux 基本指令'
+            'Git 指令',
+            'linux 指令'
           ]
         }
       ],

@@ -6,10 +6,10 @@
     <div class="container work_list">
       <ul class="">
         <div class="row mx-auto">
-          <li class="col-md-4 p-4 wow slideInUp" v-for="list in works" :key="list.index"
-          data-wow-duration="0.5s" data-wow-delay="0.5s">
+          <li class="col-md-4 p-4 wow flip" v-for="list in works" :key="list.index"
+          data-wow-duration="0.5s" >
               <a class="btn-link" :href="list.link" target="_blank">
-                 <img :src="list.image" :alt="list.title">
+                 <img :src="list.image" :alt="list.title" class="rounded img-sizing">
                 <div class="text-left text">
                   <h3 class="title mt-3">{{ list.title }}</h3>
                   <div class="mb-2">                    
@@ -38,6 +38,9 @@
 import Midi_Image from '../assets/image/music.jpg'
 import Auction_Image from '../assets/image/auction.jpg'
 import Kkwoo_Image from '../assets/image/kkwoo.jpg'
+import Youtube_Image from '../assets/image/youtubeComment.jpg'
+import LineNotify_Image from '../assets/image/LineNotify.png'
+
 export default {
   name: 'Works',
   props: ['title', 'subTitle'],
@@ -52,8 +55,6 @@ export default {
           description: [
             '應市面上許多音樂 MIDI 編輯軟體皆要下載才能做使用，製作依網頁版可不需下載即可編輯和播放 MIDI 檔案。',
             '連接 FIREBASE 可將自己的創作與人分享',
-
-
             ]
         },
         {
@@ -62,7 +63,7 @@ export default {
           image: Auction_Image,
           link: 'https://github.com/andy870622/ntouo_auction_system',
           description: [
-            '一個可用第三方認證之拍賣系統',
+            '一個用第三方認證之拍賣系統',
             '使用 Django, Firebase 做為後端',
             '可上架、拍賣、競拍商品'
             ]
@@ -77,6 +78,27 @@ export default {
             ''
             ]
         },
+        {
+          title: 'Youtube 快速截圖',
+          tags: ['HeroKu','Java','Spring Boot','Html','Css'],
+          image:Youtube_Image,
+          link: 'https://andy870622.github.io/YTCommentHTML/index.html',
+          description: [
+            '前後端分離',
+            '部屬在HEROKU',
+            '快速擷取留言',            
+          ]
+        },
+        {
+          title: 'Line Notify 通知上下班',
+          tags:['C#','windows Form','Line','SQL','oauth'],
+          image:LineNotify_Image,
+          description:[
+            'Windows 服務',
+            'SQL 監聽',
+            '打卡後通知使用者打卡時間'
+          ]
+        }
         // {
         //   title: '爬蟲',
         //   tags: ['jQuery','SVG'],
@@ -173,6 +195,15 @@ $white: #ffffff;
         }
       }
     }
+  }
+  .img-sizing{
+    max-width: 15vw;
+    max-height: 20vh;
+    width: auto;
+  }
+  a{
+    text-align: center;
+    
   }
 }
 </style>

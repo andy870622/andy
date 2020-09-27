@@ -5,8 +5,7 @@
         <div class="text-left">
             <h1 class='mb-2'> {{ title }} </h1>
             <h2> 我是呂學承 / Andy Lu</h2>
-            <p> 目前就讀國立台灣海洋大學資工系四年級</p>
-            <p> 致力於前端製作 HTML , CSS , JAVASCRIPT , JQUERY</p>
+            <p> 畢業於國立台灣海洋大學資工系</p>
         </div>
         <Contact />
     </div>
@@ -26,16 +25,6 @@ export default{
         Contact
     }
 }
-// export default {
-//   name: 'Intro',
-//   props: {
-//     msg: String
-//   },
-//   components:{
-//     Navbar,KVTyper,About
-//   }
-// }
-
 </script>
 
 

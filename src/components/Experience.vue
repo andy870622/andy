@@ -1,9 +1,9 @@
 <template>
-  <div class="experience text-left spaceWrapperContainer">
+  <div class="experience spaceWrapperContainer">
     <div id="experienceandeducation" class="spaceWrapper"></div>
     <h1 class="title">{{ title }}</h1>
     <h2 class="subTitle">{{ subTitle }}</h2>
-    <div class="">
+    <div>
       <ul class="ul-list">
         <li class="item ul-list-item wow slideInUp" v-for='item in experiences' :key='item.index'>
           <h5>{{ item.title }} | {{ item.during }}</h5>
@@ -26,10 +26,21 @@ export default {
   data () {
     return {
       experiences: [
+         {
+          company: '康橋雙語學校',
+          title: '資訊部程式設計師',
+          during: '2020/7/1-2020/9/30',
+          list: [
+            '程式設計',
+            'ASP.NET',
+            'C#',
+            'SQL Server'
+          ]
+        },
         {
           company: '康橋雙語學校',
           title: '資訊部工讀',
-          during: '2013/10-2015/8',
+          during: '大一/大二暑假',
           list: [
             '教導國小學生 Smart Car 基本操作',
             '簡易程式',
